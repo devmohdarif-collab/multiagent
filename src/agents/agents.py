@@ -16,7 +16,7 @@ load_dotenv()
 #     max_retries=2,
 # )
 llm = ChatOpenRouter(
-    model="apodex/apodex-1.1-mini:free",
+    model="openai/gpt-4o-mini",
     temperature=0
 )
 response = llm.invoke(
